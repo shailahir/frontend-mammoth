@@ -30,3 +30,8 @@ A: use typeof operator.
 Q: Describe the bug in typeof operator?
 A: typeof null unfortunately returns "object instead of the expected "null. Also, typeof returns the specific "function" for functions, but not the expected "array" for arrays.
 
+Q: Fact about ==
+A: It prefers primitive numeric comparisions
+
+Q: fact about relational operators
+A: The relational operators typically use numeric comparisions, except in the case4 where both values being compared are already strings; in this case, they use alphabetical comparision of the strings.
